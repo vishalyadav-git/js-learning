@@ -16,6 +16,16 @@ const id = Symbol(123)
 
 // Types:Array,Object,Function
 
+let arr = ["Spiderman","Batman"];
+
+let obj = {
+
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+    
+}
 
 
 
