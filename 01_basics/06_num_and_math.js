@@ -15,9 +15,13 @@ const num3 = 1000000
 // console.log(num3.toLocaleString("en-IN"));
 
 // ++++++++++++++++Maths++++++++++++++
-console.log(Math);
-console.log(Math.ceil(4.5)); //roundoff to bigger no.
-console.log(Math.floor(4.5)); //roundoff to smaller no.
-console.log(Math.round(4.3));
+// console.log(Math);
+// console.log(Math.ceil(4.5)); //roundoff to bigger no.
+// console.log(Math.floor(4.5)); //roundoff to smaller no.
+// console.log(Math.round(4.3));
+
+const min = 1
+const max = 10
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 
