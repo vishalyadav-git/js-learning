@@ -44,3 +44,20 @@ console.log(Object.entries(user));
 
 console.log(user.hasOwnProperty("email"));
 
+// Object Destructuring 
+
+const {firstName:name} = user
+console.log(name);
+
+// JSON
+
+// {
+//     "name": "vishal",
+//     "age": 20,
+// }
+
+// [
+//     {},
+//     {},
+//     {},
+// ]
