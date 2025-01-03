@@ -1,3 +1,4 @@
+// for in loop on object
 const myObject = {
     js: "JavaScript",
     rb: "Ruby",
@@ -9,6 +10,7 @@ for (const key in myObject) {
         
     }
 
+    // for_in loop on array
  const programming = ["js", "rb", "py","cpp"]   
 
  for (const key in programming) {
