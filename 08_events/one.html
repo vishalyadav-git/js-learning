@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+   <ul id="image">
+    <li><img height="250px" id="train" src="https://images.pexels.com/photos/2526935/pexels-photo-2526935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="train"></li> <br>
+    <li><img height="250px" width="200" id="sealink" src="https://images.pexels.com/photos/3893788/pexels-photo-3893788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sealink"></li> <br>
+    <li><img height="250px" width="200" src="https://images.pexels.com/photos/18680881/pexels-photo-18680881/free-photo-of-the-taj-mahal-hotel-in-mumbai-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="taj"></li> <br>
+    <li><a target="_blank" style="color: aliceblue;" href="https://google.com">Google</a></li>
+    </ul>
+</body>
+<script>
+    // document.getElementById('train').onclick = function(){
+    //     alert('You clicked on Train')
+    // }   less featured
+
+    // document.getElementById('train').addEventListener('click', function(){
+    //     alert("U clicked train")
+    // })
+
+    document.querySelector('#image').addEventListener('click', function(e){
+        console.log(e.target.parentNode);
+
+        if(e.target.tagName === 'IMG'){
+            console.log(e.target.tagName);
+            
+          let removeImg = e.target.parentNode;
+          removeImg.remove()
+        }
+    },false)
+</script>
+</html>
